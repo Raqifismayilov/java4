@@ -1,4 +1,5 @@
 package com.company;
+import java.util.*;
 
 public class Main {
 
@@ -6,7 +7,7 @@ public class Main {
 	int a=15;
 	int b=45;
 	int c=a+b;
-
+	c=(int)Math.pow(c,2);
 	System.out.println(c);
     }
 }
